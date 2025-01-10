@@ -7,22 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		842748072D30D695003320F3 /* HealthAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842748062D30D695003320F3 /* HealthAppApp.swift */; };
-		842748092D30D695003320F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842748082D30D695003320F3 /* ContentView.swift */; };
 		8427480B2D30D698003320F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8427480A2D30D698003320F3 /* Assets.xcassets */; };
 		8427480E2D30D698003320F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8427480D2D30D698003320F3 /* Preview Assets.xcassets */; };
-		842748102D30D698003320F3 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8427480F2D30D698003320F3 /* Persistence.swift */; };
-		842748132D30D698003320F3 /* HealthApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 842748112D30D698003320F3 /* HealthApp.xcdatamodeld */; };
+		842748242D30D75A003320F3 /* HealthCareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8427481A2D30D75A003320F3 /* HealthCareApp.swift */; };
+		842748252D30D75A003320F3 /* ViewDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8427481B2D30D75A003320F3 /* ViewDataView.swift */; };
+		842748262D30D75A003320F3 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8427481C2D30D75A003320F3 /* ChartView.swift */; };
+		842748272D30D75A003320F3 /* EditDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8427481D2D30D75A003320F3 /* EditDataView.swift */; };
+		842748282D30D75A003320F3 /* AddDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8427481E2D30D75A003320F3 /* AddDataView.swift */; };
+		842748292D30D75A003320F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8427481F2D30D75A003320F3 /* ContentView.swift */; };
+		8427482A2D30D75A003320F3 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842748212D30D75A003320F3 /* Persistence.swift */; };
+		8427482B2D30D75A003320F3 /* HealthCare.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 842748222D30D75A003320F3 /* HealthCare.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		842748032D30D695003320F3 /* HealthApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		842748062D30D695003320F3 /* HealthAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthAppApp.swift; sourceTree = "<group>"; };
-		842748082D30D695003320F3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8427480A2D30D698003320F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8427480D2D30D698003320F3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		8427480F2D30D698003320F3 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		842748122D30D698003320F3 /* HealthApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HealthApp.xcdatamodel; sourceTree = "<group>"; };
+		8427481A2D30D75A003320F3 /* HealthCareApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthCareApp.swift; sourceTree = "<group>"; };
+		8427481B2D30D75A003320F3 /* ViewDataView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewDataView.swift; sourceTree = "<group>"; };
+		8427481C2D30D75A003320F3 /* ChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		8427481D2D30D75A003320F3 /* EditDataView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditDataView.swift; sourceTree = "<group>"; };
+		8427481E2D30D75A003320F3 /* AddDataView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDataView.swift; sourceTree = "<group>"; };
+		8427481F2D30D75A003320F3 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		842748212D30D75A003320F3 /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		842748232D30D75A003320F3 /* HealthCare.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HealthCare.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +63,9 @@
 		842748052D30D695003320F3 /* HealthApp */ = {
 			isa = PBXGroup;
 			children = (
-				842748062D30D695003320F3 /* HealthAppApp.swift */,
-				842748082D30D695003320F3 /* ContentView.swift */,
+				842748202D30D75A003320F3 /* CoreData */,
+				842748192D30D75A003320F3 /* View */,
 				8427480A2D30D698003320F3 /* Assets.xcassets */,
-				8427480F2D30D698003320F3 /* Persistence.swift */,
-				842748112D30D698003320F3 /* HealthApp.xcdatamodeld */,
 				8427480C2D30D698003320F3 /* Preview Content */,
 			);
 			path = HealthApp;
@@ -71,6 +77,28 @@
 				8427480D2D30D698003320F3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		842748192D30D75A003320F3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8427481A2D30D75A003320F3 /* HealthCareApp.swift */,
+				8427481B2D30D75A003320F3 /* ViewDataView.swift */,
+				8427481C2D30D75A003320F3 /* ChartView.swift */,
+				8427481D2D30D75A003320F3 /* EditDataView.swift */,
+				8427481E2D30D75A003320F3 /* AddDataView.swift */,
+				8427481F2D30D75A003320F3 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		842748202D30D75A003320F3 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				842748212D30D75A003320F3 /* Persistence.swift */,
+				842748222D30D75A003320F3 /* HealthCare.xcdatamodeld */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,10 +171,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				842748102D30D698003320F3 /* Persistence.swift in Sources */,
-				842748132D30D698003320F3 /* HealthApp.xcdatamodeld in Sources */,
-				842748092D30D695003320F3 /* ContentView.swift in Sources */,
-				842748072D30D695003320F3 /* HealthAppApp.swift in Sources */,
+				8427482B2D30D75A003320F3 /* HealthCare.xcdatamodeld in Sources */,
+				8427482A2D30D75A003320F3 /* Persistence.swift in Sources */,
+				842748272D30D75A003320F3 /* EditDataView.swift in Sources */,
+				842748242D30D75A003320F3 /* HealthCareApp.swift in Sources */,
+				842748262D30D75A003320F3 /* ChartView.swift in Sources */,
+				842748292D30D75A003320F3 /* ContentView.swift in Sources */,
+				842748282D30D75A003320F3 /* AddDataView.swift in Sources */,
+				842748252D30D75A003320F3 /* ViewDataView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,13 +379,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		842748112D30D698003320F3 /* HealthApp.xcdatamodeld */ = {
+		842748222D30D75A003320F3 /* HealthCare.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				842748122D30D698003320F3 /* HealthApp.xcdatamodel */,
+				842748232D30D75A003320F3 /* HealthCare.xcdatamodel */,
 			);
-			currentVersion = 842748122D30D698003320F3 /* HealthApp.xcdatamodel */;
-			path = HealthApp.xcdatamodeld;
+			currentVersion = 842748232D30D75A003320F3 /* HealthCare.xcdatamodel */;
+			path = HealthCare.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

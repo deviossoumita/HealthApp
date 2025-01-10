@@ -1,14 +1,16 @@
 //
-//  HealthAppApp.swift
-//  HealthApp
+//  HealthCareApp.swift
+//  HealthCare
 //
-//  Created by Soumita on 10/01/25.
+//  Created by Soumita on 09/01/25.
 //
 
 import SwiftUI
+import CoreData
+import Charts
 
 @main
-struct HealthAppApp: App {
+struct HealthApp: App {
     let persistenceController = PersistenceController.shared
 
     var body: some Scene {
