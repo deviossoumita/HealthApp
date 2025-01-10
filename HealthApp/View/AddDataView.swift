@@ -31,7 +31,7 @@ struct AddDataView: View {
                 TextField("Value", text: $value)
                     .keyboardType(.decimalPad)
 
-                DatePicker("Timestamp", selection: $timestamp, displayedComponents: [.date, .hourAndMinute])
+                DatePicker("Date", selection: $timestamp, displayedComponents: [.date, .hourAndMinute])
 
                 Button("Save") {
                     if value.isEmpty {

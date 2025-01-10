@@ -18,35 +18,49 @@ struct ChartView: View {
 
     var body: some View {
         VStack {
-            Text("Line Chart")
-                .font(.headline)
-            Chart(healthData) { data in
-                LineMark(
-                    x: .value("Time", data.timestamp ?? Date()),
-                    y: .value("Value", data.value)
-                )
+            if healthData.isEmpty {
+                VStack {
+                    Image(systemName: "chart.bar")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 100, height: 100)
+                        .foregroundColor(.gray)
+                    Text("No data available")
+                        .font(.headline)
+                        .foregroundColor(.gray)
+                }
+                .padding()
+            } else {
+                Text("Line Chart")
+                    .font(.headline)
+                Chart(healthData) { data in
+                    LineMark(
+                        x: .value("Time", data.timestamp ?? Date()),
+                        y: .value("Value", data.value)
+                    )
+                }
+                .padding()
+                
+                Text("Bar Chart")
+                    .font(.headline)
+                Chart(healthData) { data in
+                    BarMark(
+                        x: .value("Time", data.timestamp ?? Date()),
+                        y: .value("Value", data.value)
+                    )
+                }
+                .padding()
+                
+                Text("Point Chart")
+                    .font(.headline)
+                Chart(healthData) { data in
+                    PointMark(
+                        x: .value("Time", data.timestamp ?? Date()),
+                        y: .value("Value", data.value)
+                    )
+                }
+                .padding()
             }
-            .padding()
-
-            Text("Bar Chart")
-                .font(.headline)
-            Chart(healthData) { data in
-                BarMark(
-                    x: .value("Time", data.timestamp ?? Date()),
-                    y: .value("Value", data.value)
-                )
-            }
-            .padding()
-
-            Text("Point Chart")
-                .font(.headline)
-            Chart(healthData) { data in
-                PointMark(
-                    x: .value("Time", data.timestamp ?? Date()),
-                    y: .value("Value", data.value)
-                )
-            }
-            .padding()
         }
     }
 }
