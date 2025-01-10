@@ -1,4 +1,4 @@
-# HealthCare App
+# Health App
 
 ## Overview
 The HealthApp is a SwiftUI-based application designed to track and manage personal health metrics. Users can add, view, edit, and delete health data like heart rate, steps, and water intake. The app uses Core Data for data persistence and displays health trends using various types of charts.
