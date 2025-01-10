@@ -1,6 +1,6 @@
 //
 //  ChartView.swift
-//  HealthCare
+//  HealthApp
 //
 //  Created by Soumita on 09/01/25.
 //
@@ -9,7 +9,6 @@ import SwiftUI
 import CoreData
 import Charts
 
-// Chart View
 struct ChartView: View {
     @FetchRequest(
         sortDescriptors: [NSSortDescriptor(keyPath: \HealthData.timestamp, ascending: false)],

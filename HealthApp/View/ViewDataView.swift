@@ -1,6 +1,6 @@
 //
 //  ViewDataView.swift
-//  HealthCare
+//  HealthApp
 //
 //  Created by Soumita on 09/01/25.
 //

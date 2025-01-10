@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		8427480B2D30D698003320F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8427480A2D30D698003320F3 /* Assets.xcassets */; };
 		8427480E2D30D698003320F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8427480D2D30D698003320F3 /* Preview Assets.xcassets */; };
-		842748242D30D75A003320F3 /* HealthCareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8427481A2D30D75A003320F3 /* HealthCareApp.swift */; };
+		842748242D30D75A003320F3 /* HealthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8427481A2D30D75A003320F3 /* HealthApp.swift */; };
 		842748252D30D75A003320F3 /* ViewDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8427481B2D30D75A003320F3 /* ViewDataView.swift */; };
 		842748262D30D75A003320F3 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8427481C2D30D75A003320F3 /* ChartView.swift */; };
 		842748272D30D75A003320F3 /* EditDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8427481D2D30D75A003320F3 /* EditDataView.swift */; };
@@ -23,7 +23,7 @@
 		842748032D30D695003320F3 /* HealthApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8427480A2D30D698003320F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8427480D2D30D698003320F3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		8427481A2D30D75A003320F3 /* HealthCareApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthCareApp.swift; sourceTree = "<group>"; };
+		8427481A2D30D75A003320F3 /* HealthApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthApp.swift; sourceTree = "<group>"; };
 		8427481B2D30D75A003320F3 /* ViewDataView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewDataView.swift; sourceTree = "<group>"; };
 		8427481C2D30D75A003320F3 /* ChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 		8427481D2D30D75A003320F3 /* EditDataView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditDataView.swift; sourceTree = "<group>"; };
@@ -82,7 +82,7 @@
 		842748192D30D75A003320F3 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				8427481A2D30D75A003320F3 /* HealthCareApp.swift */,
+				8427481A2D30D75A003320F3 /* HealthApp.swift */,
 				8427481B2D30D75A003320F3 /* ViewDataView.swift */,
 				8427481C2D30D75A003320F3 /* ChartView.swift */,
 				8427481D2D30D75A003320F3 /* EditDataView.swift */,
@@ -174,7 +174,7 @@
 				8427482B2D30D75A003320F3 /* HealthCare.xcdatamodeld in Sources */,
 				8427482A2D30D75A003320F3 /* Persistence.swift in Sources */,
 				842748272D30D75A003320F3 /* EditDataView.swift in Sources */,
-				842748242D30D75A003320F3 /* HealthCareApp.swift in Sources */,
+				842748242D30D75A003320F3 /* HealthApp.swift in Sources */,
 				842748262D30D75A003320F3 /* ChartView.swift in Sources */,
 				842748292D30D75A003320F3 /* ContentView.swift in Sources */,
 				842748282D30D75A003320F3 /* AddDataView.swift in Sources */,
